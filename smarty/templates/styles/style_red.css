@@ -1,0 +1,32 @@
+
+body {
+	background-color: #330000;
+}
+
+body, td, th {
+	color: #FFCC99;
+}
+
+h1 {
+	color: #FF6666;
+}
+
+h2 {
+	color: #FF99CC;
+}
+
+h3, h4 {
+	color: #CC9999;
+}
+
+h5, h6 {
+	color: #FFCCCC;
+}
+
+a {
+	color: #FF0033;
+}
+
+form {
+	background-color: #990000;
+}

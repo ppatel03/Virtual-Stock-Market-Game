@@ -1,0 +1,48 @@
+
+body {
+	background-color: #FDF6E3;
+}
+
+body, td, th {
+	color: #DBD49E;
+}
+
+h1 {
+	color: #112E72;
+}
+
+h2 {
+	color: #112E72;
+}
+
+h3, h4 {
+	color: #0F6679;
+}
+
+h5, h6 {
+	color: #FFCCCC;
+}
+
+a {
+	color: #339064;
+}
+
+form {
+	background-color: #0F6679;
+}
+
+
+#footer
+{
+    MARGIN-TOP: 10px;
+    TEXT-ALIGN: center
+}
+
+.bluebox
+{
+    BORDER-RIGHT : rgb(0 , 153 , 238) 1px solid;
+    BORDER-TOP : rgb(0 , 153 , 238) 1px solid;
+    BORDER-LEFT : rgb(0 , 153 , 238) 1px solid;
+    BORDER-BOTTOM : rgb(0 , 153 , 238) 1px solid;
+    BACKGROUND-COLOR : rgb(238 , 255 , 255);
+}

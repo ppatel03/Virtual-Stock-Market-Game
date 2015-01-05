@@ -1,0 +1,164 @@
+<style type="text/css">
+
+#krazy_container {display:block; position:relative; background:#ddd; padding:50px 0;}
+#krazy_container h2 {margin-bottom:1em;}
+#krazy_container h3 {clear:both; margin-top:4em;}
+
+/* Inset 3D Raised */
+.raised {background: transparent; width:40%; margin:0 auto;}
+.raised h1, .raised p {margin:0 10px;}
+.raised h1 {font-size:2em; color:#fff; letter-spacing:1px;}
+.raised p {padding-bottom:0.5em;}
+
+.raised .top, .raised .bottom {display:block; background:transparent; font-size:1px;}
+.raised .b1, .raised .b2, .raised .b3, .raised .b4, .raised .b1b, .raised .b2b, .raised .b3b, .raised .b4b {display:block; overflow:hidden;}
+.raised .b1, .raised .b2, .raised .b3, .raised .b1b, .raised .b2b, .raised .b3b {height:1px;}
+.raised .b2 {background:#ccc; border-left:1px solid #fff; border-right:1px solid #eee;}
+.raised .b3 {background:#ccc; border-left:1px solid #fff; border-right:1px solid #ddd;}
+.raised .b4 {background:#ccc; border-left:1px solid #fff; border-right:1px solid #aaa;}
+.raised .b4b {background:#ccc; border-left:1px solid #eee; border-right:1px solid #999;}
+.raised .b3b {background:#ccc; border-left:1px solid #ddd; border-right:1px solid #999;}
+.raised .b2b {background:#ccc; border-left:1px solid #aaa; border-right:1px solid #999;}
+
+
+.raised .b1 {margin:0 5px; background:#fff;}
+.raised .b2, .raised .b2b {margin:0 3px; border-width:0 2px;}
+.raised .b3, .raised .b3b {margin:0 2px;}
+.raised .b4, .raised .b4b {height:2px; margin:0 1px;}
+.raised .b1b {margin:0 5px; background:#999;}
+.raised .boxcontent {display:block;  background:#ccc; border-left:1px solid #fff; border-right:1px solid #999;}
+
+
+
+/* Inset 3D Curved */
+.inset {background: transparent; width:40%; margin:0 auto;}
+.inset h1, .inset p {margin:0 10px;}
+.inset h1 {font-size:2em; color:#fff; letter-spacing:1px;}
+.inset p {padding-bottom:0.5em;}
+
+.inset .top, .inset .bottom {display:block; background:transparent; font-size:1px;}
+.inset .b1, .inset .b2, .inset .b3, .inset .b4, .inset .b1b, .inset .b2b, .inset .b3b, .inset .b4b {display:block; overflow:hidden;}
+.inset .b1, .inset .b2, .inset .b3, .inset .b1b, .inset .b2b, .inset .b3b {height:1px;}
+.inset .b2 {background:#ccc; border-left:1px solid #999; border-right:1px solid #aaa;}
+.inset .b3 {background:#ccc; border-left:1px solid #999; border-right:1px solid #ddd;}
+.inset .b4 {background:#ccc; border-left:1px solid #999; border-right:1px solid #eee;}
+.inset .b4b {background:#ccc; border-left:1px solid #aaa; border-right:1px solid #fff;}
+.inset .b3b {background:#ccc; border-left:1px solid #ddd; border-right:1px solid #fff;}
+.inset .b2b {background:#ccc; border-left:1px solid #eee; border-right:1px solid #fff;}
+
+
+.inset .b1 {margin:0 5px; background:#999;}
+.inset .b2, .inset .b2b {margin:0 3px; border-width:0 2px;}
+.inset .b3, .inset .b3b {margin:0 2px;}
+.inset .b4, .inset .b4b {height:2px; margin:0 1px;}
+.inset .b1b {margin:0 5px; background:#fff;}
+
+.inset .boxcontent {display:block; background:#ccc; border-left:1px solid #999; border-right:1px solid #fff;}
+
+/* Chamfer Borders*/
+.chamfer {background: transparent; width:40%; margin:0 auto;}
+.chamfer h1, .chamfer p {margin:0 10px;}
+.chamfer h1 {font-size:2em; color:#000; letter-spacing:1px;}
+.chamfer p {padding-bottom:0.5em;}
+
+.chamfer .top, .chamfer .bottom {display:block; background:transparent; font-size:1px;}
+.chamfer .b1, .chamfer .b2, .chamfer .b3, .chamfer .b4, .chamfer .b5 {display:block; overflow:hidden; height:1px; background:#eca; border-left:1px solid #000; border-right:1px solid #000;}
+.chamfer .b1 {margin:0 5px; background:#000;}
+.chamfer .b2 {margin:0 4px;}
+.chamfer .b3 {margin:0 3px;}
+.chamfer .b4 {margin:0 2px;}
+.chamfer .b5 {margin:0 1px;}
+
+.chamfer .boxcontent {display:block; background:#eca; border-left:1px solid #000; border-right:1px solid #000;}
+
+/* Square cutout Borders*/
+.square {background: transparent; width:40%; margin:0 auto;}
+.square h1, .square p {margin:0 10px;}
+.square h1 {font-size:2em; color:#00c; letter-spacing:1px;}
+.square p {padding-bottom:0.5em;}
+
+.square .top, .square .bottom {display:block; background:transparent; font-size:1px;}
+.square .b1t {margin:0 6px; display:block; overflow:hidden; height:5px; background:#9ce; border-left:1px solid #00c; border-right:1px solid #00c; border-top:1px solid #00c;}
+.square .b2 {display:block; height:1px; margin:0; background:#9ce; border-left:7px solid #00c; border-right:7px solid #00c; overflow:hidden;}
+.square .b1b {margin:0 6px; display:block; overflow:hidden; height:5px; background:#9ce; border-left:1px solid #00c; border-right:1px solid #00c; border-bottom:1px solid #00c;}
+
+.square .boxcontent {display:block; background:#9ce; border-left:1px solid #00c; border-right:1px solid #00c;}
+
+/* Curved cutout Borders*/
+.curved {background: transparent; width:40%; margin:0 auto;}
+.curved h1, .curved p {margin:0 10px;}
+.curved h1 {font-size:2em; color:#fff; letter-spacing:1px;}
+.curved p {padding-bottom:0.5em;}
+
+.curved .top, .curved .bottom {display:block; background:transparent; font-size:1px;}
+.curved .b1, .curved .b2, .curved .b3, .curved .b4 {display:block; overflow:hidden; height:1px;}
+.curved .b2, .curved .b3, .curved .b4 {background:#e0cea3; border-left:1px solid #fff; border-right:1px solid #fff;}
+.curved .b1 {margin:0 4px; background:#fff;}
+.curved .b2 {margin:0 4px; height:2px;}
+.curved .b3 {margin:0 3px;}
+.curved .b4 {margin:0; height:1px; border-width:0 3px 0 3px;}
+
+.curved .boxcontent {display:block; background:#e0cea3; border:0 solid #fff; border-width:0 1px;}
+
+/* flared serif */
+.serif {background: transparent; width:40%; margin:0 auto;}
+.serif h1, .serif p {margin:0 10px;}
+.serif h1 {font-size:2em; color:#fff; letter-spacing:1px;}
+.serif p {padding-bottom:0.5em;}
+
+.serif .top, .serif .bottom {display:block; background:transparent; font-size:1px;}
+.serif .b1, .serif .b2, .serif .b3, .serif .b4 {display:block; overflow:hidden;}
+.serif .b1, .serif .b2, .serif .b3 {height:1px;}
+.serif .b2, .serif .b3 {background:#fc0; border-left:1px solid #fff; border-right:1px solid #fff;}
+.serif .b4 {background:#fc0; border-left:1px solid #fff; border-right:1px solid #fff;}
+
+.serif .b1 {margin:0; background:#fff;}
+.serif .b2 {margin:0 1px; border-width:0 2px;}
+.serif .b3 {margin:0 3px;}
+.serif .b4 {height:2px; margin:0 4px;}
+
+.serif .boxcontent {display:block;  background:#fc0; border-left:1px solid #fff; border-right:1px solid #fff; margin:0 5px;}
+
+/* Pillar type */
+.pillar {background: transparent; width:40%; margin:0 auto;}
+.pillar h1, .pillar p {margin:0 10px;}
+.pillar h1 {font-size:2em; color:#fff; letter-spacing:1px;}
+.pillar p {padding-bottom:0.5em;}
+
+.pillar .top, .pillar .bottom {display:block; background:transparent; font-size:1px;}
+.pillar .b1, .pillar .b2, .pillar .b3, .pillar .b4 {display:block; overflow:hidden;}
+.pillar .b1, .pillar .b2, .pillar .b4 {height:1px;}
+.pillar .b2, .pillar .b3 {background:#d66; border-left:1px solid #fff; border-right:1px solid #fff;}
+.pillar .b4 {background:#d66; border-left:4px solid #fff; border-right:4px solid #fff;}
+
+.pillar .b1 {margin:0 2px; background:#fff;}
+.pillar .b2 {margin:0 1px; border-width:0 1px;}
+.pillar .b3 {height:2px; margin:0;}
+.pillar .b4 {margin:0 2px;}
+
+.pillar .boxcontent {display:block; background:#d66; border-left:1px solid #fff; border-right:1px solid #fff; margin:0 5px;}
+
+
+/* Barrel cutout Borders*/
+.barrel {background: transparent; width:40%; margin:0 auto;}
+.barrel h1, .barrel p {margin:0 10px;}
+.barrel h1 {font-size:2em; color:#fff; letter-spacing:1px;}
+.barrel p {padding-bottom:0.5em;}
+
+.barrel .top, .barrel .bottom {display:block; background:transparent; font-size:1px;}
+.barrel .b1, .barrel .b2, .barrel .b3, .barrel .b4, .barrel .b5 {display:block; overflow:hidden; height:1px; background:#e0cea3;}
+.barrel .b1 {border-left:10px solid #dfd5c0; border-right:10px solid #dfd5c0;}
+.barrel .b2 {border-left:5px solid #dfd5c0; border-right:5px solid #dfd5c0;}
+.barrel .b3 {border-left:3px solid #dfd5c0; border-right:3px solid #dfd5c0;}
+.barrel .b4 {border-left:2px solid #dfd5c0; border-right:2px solid #dfd5c0;}
+.barrel .b5 {border-left:1px solid #dfd5c0; border-right:1px solid #dfd5c0;}
+.barrel .b1 {margin:0 33%;}
+.barrel .b2 {margin:0 20%;}
+.barrel .b3 {margin:0 12%;}
+.barrel .b4 {margin:0 5%;}
+.barrel .b5 {margin:0 1px;}
+
+.barrel .boxcontent {display:block; background:#e0cea3; border-left:1px solid #fff; border-right:1px solid #999;}
+
+
+</style>
